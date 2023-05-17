@@ -1,5 +1,57 @@
+body{
+    font-family: inter;
+}
 
 
 div{
     border: solid rgb(211, 211, 211); border-radius: 0.5cm;
+}
+
+#Paquete_de_3_columnas{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#boton_auxiliar_1{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#Parte1_footer{
+   
+    
+}
+
+#Parte2_footer{
+
+}
+
+#redes_foot{
+    display: flex; 
+   
+}
+
+#recomendaciones_foot{
+    display: flex;
+}
+
+#Parte3_footer{
+    
 }
