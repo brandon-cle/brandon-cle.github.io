@@ -1,3 +1,4 @@
+
 body{
     font-family: inter;
 }
@@ -6,6 +7,92 @@ body{
 div{
     border: solid rgb(211, 211, 211); border-radius: 0.5cm;
 }
+
+nav{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 0%;
+    height: 50px;
+    background-color: brown;
+}
+
+nav .logo{
+    float: left;
+    width: 15%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav .list{
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 5%;
+    height: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .list2{
+    float: right;
+    padding: 0;
+    margin: 0;
+    
+    height: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .list li{
+    list-style: none
+}
+
+nav .list a{
+    display: block;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: 0;
+}
+
+nav .list a:hover{
+    border-bottom: 4px solid chocolate
+}
+
+nav .list2 li{
+    list-style: none
+}
+
+nav .list2 a{
+    display: block;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: 0;
+}
+
+nav .list2 a:hover{
+    border-bottom: 4px solid chocolate
+}
+
+
+na
 
 #Paquete_de_3_columnas{
     display: flex;
