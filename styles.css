@@ -1,6 +1,7 @@
 
 body{
     font-family: inter;
+    margin-top: 60px;
 }
 
 
@@ -78,7 +79,6 @@ nav .list2 li{
 
 nav .list2 a{
     display: block;
-    
     padding: 15px;
     font-size: 16px;
     font-weight: bold;
@@ -97,6 +97,27 @@ na
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+#Contenedor1_Inicio{
+    display: flex;
+    background-color: rgb(172, 13, 13);
+    color: aliceblue;
+    justify-content: center;
+    height: 400px;
+}
+
+#Contenedor1_Inicio h1{
+font-weight: bold;
+}
+
+
+
+#SubContenedor2_Imagen{
+    padding-left:50% ;
+    background-image: linear-gradient( to right, rgb(148, 0, 0), rgba(0,0,0,0)), url(imágenes/messicopita.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #boton_auxiliar_1{
