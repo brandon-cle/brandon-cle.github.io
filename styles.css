@@ -172,6 +172,7 @@ font-size: 4em;
     margin-top: 5%;
 }
 
+
 .LEFT{
     display: flex;
     flex-direction: column;
@@ -180,6 +181,10 @@ font-size: 4em;
 
 .LEFT button{
     height: 100%;
+}
+
+.carrusel_de_partidos{
+
 }
 
 .RIGHT{
@@ -195,6 +200,7 @@ font-size: 4em;
 .carrusel_de_partidos{
     width: 90%;
     display: flex;
+    transition: transform 0.5s ease;
     flex-direction: row;
 }
 
