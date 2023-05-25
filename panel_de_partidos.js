@@ -1,4 +1,4 @@
-const carousel = document.querySelector('.panel_de_partidos');
+const carousel = document.querySelector('#panel_de_partidos_vert');
 const carouselContainer = document.querySelector('.carrusel_de_partidos');
 const carouselItems = document.querySelector('slide');
 
@@ -21,6 +21,6 @@ function moveToPrev(){
     }
 }
 
-document.querySelector('.LEFT_btn').addEventListener('click', moveToNext);
-document.querySelector('.RIGHT_btn').addEventListener('click', moveToPrev);
+document.querySelector('#LEFT_btn').addEventListener('click', moveToNext);
+document.querySelector('#RIGHT_btn').addEventListener('click', moveToPrev);
 
