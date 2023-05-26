@@ -1,0 +1,174 @@
+.columnX  {
+    margin-left: 10%;
+    display: grid;
+    row-gap: 10%;
+    
+}
+
+/*Cuadro de promocion 1 COM*/
+
+/*Cuadro en general*/
+#cuadro_registro_inicio{
+    display: grid;
+    grid-template-columns: 100%;
+    height: 200px;
+    background-color: rgba(80, 0, 0, 1);
+    justify-content: center;
+    color: aliceblue;
+}
+
+/*Título principal dentro del cuadro*/
+#cuadro_registro_inicio .promocion1 h2{
+    
+}
+
+/*Todo texto y su acomodado*/
+#cuadro_registro_inicio .promocion1{
+    text-align: center;
+    font-size: 0.75em;
+}
+
+/*Los botones tienen que huecos*/
+#cuadro_registro_inicio .promocion1_btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+/*los huecos de botones necesitan acomodarse - plus fuente*/
+#cuadro_registro_inicio .promocion1_btn{
+    list-style: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    font-size: 0.82em;
+    
+}
+/*Dame el tamaño de los botones - plus fuente-color*/
+#cuadro_registro_inicio .promocion1_btn a{
+    margin-bottom: 10px;
+    padding: 15px;
+    padding-right: 15px;
+    text-align: center;  
+    text-decoration: none;
+    color: white ;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/*Para cada boton un color?*/
+#cuadro_registro_inicio .promocion1_btn .prom1_btn1{
+    background-color: black;
+    
+}
+
+#cuadro_registro_inicio .promocion1_btn .prom1_btn2{
+    
+    background-color: rgb(138, 0, 0);
+}
+
+
+/*Cuadro de promocion 1 FIN */
+
+
+/*Cuadro de Recomendaciones COM - TIPO DE CUADRO A*/
+
+/*Cuadro en general*/
+
+/*Título principal dentro del cuadro*/
+.titulo{
+    font-size: 0.9em;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    
+
+
+    padding: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*Todo texto y su acomodado*/
+
+
+.content{
+    list-style: none;
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hueco{
+    display: flex;
+    flex-direction: row;
+}
+
+.hueco_nombre{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.t_nombre{
+    text-decoration: none;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.t_imagen{
+    width: 40px;
+}
+
+.border_opt{
+    border: none;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+/*TABLA RECOMENDACIONES - USO DE CUADRO A*/
+#cuadro_recomendaciones{
+    background-color: rgba(16,5,5);
+    height: 400px;
+}
+
+#cuadro_recomendaciones .titulo{
+    background-color: rgba(70,10,10); 
+}
+
+
+#cuadro_recomendaciones .border_opt{
+    border-top: 2px solid rgb(60,60,60);
+}
+
+
+/*TABLA "SIGUENOS" - USO DE CUADRO A*/
+
+#cuadro_contacto{
+    background-color: rgb(5, 10, 16);
+}
+
+#cuadro_contacto .titulo{
+    background-color: rgb(18, 38, 46);
+}
+
+#cuadro_contacto .border_opt{
+    border-top: 2px solid rgb(60,60,60);
+}
+
+
+
+
+
+
+
+
+/*Los botones tienen que huecos*/
+/*los huecos de botones necesitan acomodarse - plus fuente*/
+/*Dame el tamaño de los botones - plus fuente-color*/

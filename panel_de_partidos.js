@@ -8,7 +8,7 @@ let currentIndex = 0;
 const itemWidth = carouselItems[0].offsetWidth;
 
 function moveToNext(){
-    if(currentIndex < carouselItems.length - 1){
+    if(currentIndex < carouselItems.length - 3){
         currentIndex++;
         carouselContainer.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
 
@@ -16,12 +16,12 @@ function moveToNext(){
 }
 
 function moveToPrev(){
-    if(currentIndex > 0){
+    if(currentIndex > 3){
         currentIndex--;
         carouselContainer.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
     }
 }
 
-document.querySelector('#RIGHT_btn').addEventListener('click', moveToNext);
-document.querySelector('#LEFT_btn').addEventListener('click', moveToPrev);
+document.querySelector('#RIGHT_btn').addEventListener('click', moveToNext, true);
+document.querySelector('#LEFT_btn').addEventListener('click', moveToPrev, true);
 

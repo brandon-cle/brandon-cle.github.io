@@ -1,0 +1,132 @@
+
+
+.columnZ{
+    margin-right: 30px;
+    width: 290px ;
+}
+
+
+#cuadro_titulares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#cuadro_titulares .border_opt{
+    border: none;
+    border-top: 2px solid rgb(127,127,127);
+    background-color: black;
+}
+
+.hueco_nombre_z{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.titulo_z{
+    font-size: 1.2em;
+    
+}
+
+.hueco_titulos{
+    display: -webkit-box; /* Establece el tipo de visualización como una caja flexible */
+  -webkit-line-clamp: 2; /* Limita el texto a dos líneas */
+  -webkit-box-orient: vertical; /* Establece la orientación vertical */
+  overflow: hidden; /* Oculta el texto que se desborda */
+  text-align: left;
+  /*
+    display: inline-block;
+    justify-content: center;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    
+   */
+   width: 90%;
+
+    font-size: 0.80em;
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+}
+
+
+.hv_news {
+    text-decoration: none;
+    color: rgb(67,67,67);
+}
+
+
+.hueco_video_image{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+}
+
+.title_video{
+    display: flex;  
+    text-align: center;
+
+    font-size: 0.7em;
+}
+
+.link_to_video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80px;
+    opacity: 0%;
+    transition: opacity 0.3s ease;
+}
+
+.hueco_video_image:hover .play_btn{
+    opacity: 1;
+}
+
+.time {
+    font-weight: bold;
+    color: aliceblue;
+    border: solid rgb(238, 238, 238);
+
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    
+    background-color: rgb(72, 130, 230);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80px;
+    opacity: 80%;
+
+    text-align: center;
+    width: 45px;
+}
+
+#por_si_no_lo_viste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#por_si_no_lo_viste .border_opt{
+    border: none;
+    border-top: 2px solid rgb(127,127,127);
+    background-color: black;
+}
+

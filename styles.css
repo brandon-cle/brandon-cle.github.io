@@ -6,7 +6,7 @@ body{
 
 
 div{
-    border: solid rgb(211, 211, 211); border-radius: 0.5cm;
+    border: solid rgb(211, 211, 211); border-radius: 0.1cm;
 }
 
 nav{
@@ -152,7 +152,7 @@ font-size: 4em;
 }
 
 .panel_de_partidos_vert{
-    
+    display: flex;
     width: 100%;
     overflow: hidden;
 }
@@ -161,11 +161,12 @@ font-size: 4em;
     
     display: flex;
     transition: transform 0.5s ease;
+    width: 90%;
     
 }
 
 .slide{
-    flex: 0 0 100%;
+    flex: 0 0 33.33%;
 }
 
 .filtro_botones{
@@ -197,8 +198,9 @@ font-size: 4em;
 
 .RIGHT{
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
+    float: right;
 }
 
 #RIGHT_btn{
@@ -215,12 +217,6 @@ font-size: 4em;
     margin-top: 10px;
 }
 
-.columnX  {
-    margin-left: 10%;
-    display: grid;
-    row-gap: 10%;
-    
-}
 
 
 
@@ -229,9 +225,6 @@ font-size: 4em;
     margin-right: 10%;
 }
 
-.columnZ{
-    margin-right: 10%;
-}
 
 
 
