@@ -1,9 +1,16 @@
 .columnX  {
     margin-left: 10%;
     display: grid;
-    row-gap: 10%;
+    row-gap: 10px;
     
 }
+
+.index_home .columnX{
+    height:1005px;
+   }
+
+
+
 
 /*Cuadro de promocion 1 COM*/
 
@@ -135,10 +142,10 @@
 /*TABLA RECOMENDACIONES - USO DE CUADRO A*/
 #cuadro_recomendaciones{
     background-color: rgba(16,5,5);
-    height: 400px;
+    height: 358px;
 
 
-    padding-bottom: 10px;
+    padding-bottom:0px;
 }
 
 #cuadro_recomendaciones .titulo{
@@ -155,7 +162,7 @@
 
 #cuadro_contacto{
     background-color: rgb(5, 10, 16);
-    height: 350px;
+    height: 300px;
 }
 
 #cuadro_contacto .titulo{
@@ -165,6 +172,7 @@
 #cuadro_contacto .border_opt{
     border-top: 2px solid rgb(60,60,60);
 }
+
 
 
 

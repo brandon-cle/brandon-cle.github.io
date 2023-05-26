@@ -1,7 +1,7 @@
 .columnY{
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgb(29, 29, 29);
+    
     
     
 }
@@ -16,6 +16,7 @@
     margin-right: 5%;
 
     padding-bottom: 30px;
+    
     
 }
 
@@ -50,6 +51,22 @@
     text-align: center;
 }
 
+.puntos{
+    font-size: 1.5em;
+}
+
+.border_opt{
+    border: none;
+    border-top: 2px solid rgb(245, 245, 245);
+    background-color: black;
+
+    
+}
+
+.border_pts{
+    width: 80%;
+}
+
 .nueva{
     margin-top: 10px;
     display: flex;
@@ -57,7 +74,10 @@
     align-items: center;
     width: 75%;
 
+    margin-bottom: 30px;
+
 }
+
 
 .time_uploaded{
     text-align: right;
@@ -88,6 +108,144 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.noticia2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    padding-bottom: 30px;
+
+}
+
+.imagen_noticia_A_F2{
+    background-image: url(imágenes/lebron\ james.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover; /* La imagen de fondo se dimensiona para cubrir completamente el div */
+    background-position: center; /* La imagen de fondo se centra en el div */
+}
+
+.nueva2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    margin-bottom: 30px;
+
+}
+
+
+.noticia3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(16, 5, 5);
+
+    padding-bottom: 30px;
+
+}
+
+.equipo_perfil{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    margin-left: 20%;
+   margin-bottom: 10px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.equipo_foto_perfil{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: aliceblue;
+
+    
+
+    background-size: cover; /* La imagen de fondo se dimensiona para cubrir completamente el div */
+    background-position: center; 
+}
+
+.equipo_foto_perfil img{
+    margin-top: 12px;
+    
+}
+
+.nombre_perfil{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.tipo_deporte_perfil{
+    color: aliceblue;
+}
+
+.info_equipo_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.nueva3{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    margin-bottom: 30px;
+
+}
+
+.imagen_noticia_A_F3{
+    background-image: url(imágenes/lebron\ james.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover; /* La imagen de fondo se dimensiona para cubrir completamente el div */
+    background-position: center; /* La imagen de fondo se centra en el div */
+}
+
+.animacion{
+    animation: secuencia-imagenes 6s infinite;
+}
+
+@keyframes secuencia-imagenes {
+    0% {
+      background-image: url('imágenes/madrid_trofeo.jpg');
+    }
+    33% {
+      background-image: url('imágenes/madrid_2.jpg');
+    }
+    66% {
+      background-image: url('imágenes/madrid_3.jpg');
+    }
+    100% {
+      background-image: url('imágenes/madrid_4.jpg');
+    }
+  }
+
+
+#cuadro_titulares{
+    background-color:#ffffff;
+}
+   
+   /* Noticia2 */
+.index_home .columnY .noticia2{
+    background-color:rgba(255,255,255,0);
+}
+   
+
 
 
 

@@ -95,7 +95,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 .play_btn {
@@ -161,7 +161,8 @@
     padding-top: 5% ;
     padding-bottom: 20%;
 
-    height: 630px;
+    height: 700px;
+    
 
 }
 #lo_mejor_de_dinamis .hueco_video_completo {
@@ -170,8 +171,10 @@
     flex-direction: column;
     align-items: center;
     
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     width: 100%;
+
+    
 }
 
 #lo_mejor_de_dinamis .link_to_video .hueco_video_image{
@@ -180,6 +183,9 @@
     height: 140px;
     background-size: cover; /* La imagen de fondo se dimensiona para cubrir completamente el div */
     background-position: center; /* La imagen de fondo se centra en el div */
+
+    
+    
 
 }
 
