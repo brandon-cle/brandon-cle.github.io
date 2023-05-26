@@ -136,6 +136,9 @@
 #cuadro_recomendaciones{
     background-color: rgba(16,5,5);
     height: 400px;
+
+
+    padding-bottom: 10px;
 }
 
 #cuadro_recomendaciones .titulo{
@@ -152,6 +155,7 @@
 
 #cuadro_contacto{
     background-color: rgb(5, 10, 16);
+    height: 350px;
 }
 
 #cuadro_contacto .titulo{

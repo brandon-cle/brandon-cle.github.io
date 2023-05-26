@@ -68,17 +68,34 @@
     align-items: center;
 }
 
+.hueco_nombre_z{
+    
+    font-size: 0.8em;
+}
+
 .title_video{
     display: flex;  
     text-align: center;
+    
 
-    font-size: 0.7em;
+    list-style: none;
+}
+
+.title_video_detail{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .link_to_video{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .play_btn {
@@ -107,7 +124,7 @@
     
     background-color: rgb(72, 130, 230);
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 2;
     width: 80px;
     opacity: 80%;
 
@@ -122,9 +139,51 @@
     
     margin-bottom: 50px;
     width: 100%;
+
+    background-color: rgb(36,36,36);
+    color: white;
+
+    padding-top: 5% ;
+    padding-bottom: 1%;
+    
 }
 
 #por_si_no_lo_viste .border_opt{
+    border: none;
+    border-top: 2px solid rgb(127,127,127);
+    background-color: black;
+}
+
+
+#lo_mejor_de_dinamis{
+    background-color: rgb(31, 7, 7);
+    color: white;
+    padding-top: 5% ;
+    padding-bottom: 20%;
+
+    height: 630px;
+
+}
+#lo_mejor_de_dinamis .hueco_video_completo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#lo_mejor_de_dinamis .link_to_video .hueco_video_image{
+    background-image: url(imágenes/lebron\ james.jpg);
+    width: 85%;
+    height: 140px;
+    background-size: cover; /* La imagen de fondo se dimensiona para cubrir completamente el div */
+    background-position: center; /* La imagen de fondo se centra en el div */
+
+}
+
+#lo_mejor_de_dinamis .border_opt{
     border: none;
     border-top: 2px solid rgb(127,127,127);
     background-color: black;
