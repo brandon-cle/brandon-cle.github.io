@@ -79,7 +79,7 @@ nav .list2 li{
     list-style: none
 }
 
-nav .list2 a{
+nav .list2 alink{
     display: block;
     padding: 15px;
     font-size: 16px;
@@ -88,7 +88,7 @@ nav .list2 a{
     text-decoration: 0;
 }
 
-nav .list2 a:hover{
+.alink:hover{
     border-bottom: 4px solid chocolate;
 }
 

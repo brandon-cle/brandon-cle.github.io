@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DINAMIS</title>
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="index_columnX.css">
     <link rel="stylesheet" href="index_columnY.css">
     <link rel="stylesheet" href="index_columnZ.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
@@ -24,16 +24,54 @@
             </div>
             <ul class="list">
 
-                <li><a href="#">Baloncesto</a></li>
-                <li><a href="secciones/futbol.html">Fútbol</a></li>
-                <li><a href="#">Voleibol</a></li>
+                <li><a class="alink" href="#">Baloncesto</a></li>
+                <li><a class="alink" href="secciones/futbol.html">Fútbol</a></li>
+                <li><a class="alink" href="#">Voleibol</a></li>
             </ul>
 
             <ul class="list2">
                 <input type="text" name="" id="">
                 <button>Buscar</button>
-                <li><a href="#">Iniciar Sesión</a></li>
-                <li><a href="Registrarse.html">Registrarse</a></li>
+                <div class="container">
+                    <button class="login-button">Iniciar sesión</button>
+                    <div class="login-popup">
+                        <div class="banner_login">
+                            <img src="imágenes/DINAMIS-CUT.png" alt="">
+                        </div>
+                      
+                      <form>
+                        <label id="usuario_title_fade" class="usuario_title_fade" for="">Nombre de usuario</label>
+                        <input type="text" id="name_user_type"  placeholder="Nombre de Usuario" >
+                        <label  id="password_title_fade" class="password_title_fade" for="">Contraseña</label>
+                        <input type="password"  id="password_user_type" placeholder="Contraseña">
+                        
+                        <button id = "button1"type="submit">Iniciar sesión</button>
+                      </form>
+
+                      <button class = "cancel-popup">X</button>
+
+                      <div class="b_content">
+                        <div id = "link-account-helper"><a class ="recovery_pass"href="#">Si olvidaste la contraseña, puedes dar click aquí</a></div>
+                      </div>
+
+                        
+
+                      <div class="b_content">
+                        <div id = "register_text" class="last_text_popup">¿Aún no tienes una cuenta?</div>
+
+                        <div class="last_button_reg" onclick="redirectToPage()" >
+                            Registrarse
+                        </div>
+                      </div>
+
+                      
+                    </div>
+
+                    <div class="blur-effect">
+        
+                    </div>
+                </div>
+                <button id="register-button" class="login-button">Únete</button>
             </ul>
         </nav>
     </header>
@@ -669,6 +707,7 @@
     </footer>
     -->
     <script src="panel_de_partidos.js"></script>
+    <script src = "login.js"></script>
 </body>
 
 </html>
