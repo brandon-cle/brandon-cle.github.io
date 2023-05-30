@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    font-family: inter;
+    
+}
+
+h5{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.register_frase{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.register_frase img{
+    width: 50%;
+
+}
+
+.register_frase2{
+    color: white;
+    margin-left: 20px;
+}
+
+div {
+   /* border: 2px solid gray;*/
+}
+
+.fondo_form_register{
+    margin-top: 80px;
+    background-image: linear-gradient(to bottom, #f0000000 2%, #000000 68.5%), url(/imágenes/register_wallpaper.png);
+    background-size: 100% 1000px;
+    
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    margin-bottom: 100px;
+
+    width: 100%;    
+}
+
+
+.form_space input {
+   
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+    border-color: rgb(179, 179, 179) ;
+    border-radius: 5px;
+
+    text-align: center;
+  }
+
+.form_space{
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+.checkboxs_form_register{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    
+}
+
+.checkboxs_form_register label{
+    margin-top: 10px;
+}
+
+.checkboxs_form_register a{
+    text-decoration: none;
+    list-style: none;
+
+    color: orange;
+}
+
+
+.step_step{
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.step_step button{
+    margin-right: 20px;
+}
+
+.btn_back{
+    color: white;
+    background-color: rgba(179, 179, 179, 0);
+    border:2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_back:hover{
+    color: white;
+    background-color: rgb(63, 63, 63);
+    border:2px solid white;
+    transition: background-color 0.3s ease;
+}
+
+.btn_next{
+    color: white;
+    background-color: rgb(72, 0, 0);
+    border:2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_next:hover{
+    color: rgb(110, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border:2px solid rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+
+

@@ -4,41 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
     <title>Registrarse dentro de DINAMIS</title>
 
-
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/login.css">
+    <link rel="stylesheet" href="/secciones/registro.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <h1>DINAMIS</h1>
-                <li><a href="#">Baloncesto</a></li>
-                <li><a href="#">Fútbol</a></li>
-                <li><a href="#">Voleibol</a></li>
+            <div class="logo">
+                <img src="/imágenes/DINAMIS PNG -CUT.png" alt="" width=200px>
+            </div>
+            <ul class="list">
+
+                <li><a class="alink" href="#">Baloncesto</a></li>
+                <li><a class="alink" href="secciones/futbol.html">Fútbol</a></li>
+                <li><a class="alink" href="#">Voleibol</a></li>
+            </ul>
+
+            <ul class="list2">
                 <input type="text" name="" id="">
                 <button>Buscar</button>
+                <div class="container">
+                    <button class="login-button">Iniciar sesión</button>
+                    <div class="login-popup">
+                        <div class="banner_login">
+                            <img src="/imágenes/DINAMIS-CUT.png" alt="">
+                        </div>
+                      
+                      <form>
+                        <label id="usuario_title_fade" class="usuario_title_fade" for="">Nombre de usuario</label>
+                        <input type="text" id="name_user_type" class="highlight-input" placeholder="Nombre de Usuario" >
+                        <label  id="password_title_fade" class="password_title_fade" for="">Contraseña</label>
+                        <input type="password"  id="password_user_type" class="highlight-input" placeholder="Contraseña">
+                        
+                        <button id = "button1"type="submit">Iniciar sesión</button>
+                      </form>
+
+                      <button class = "cancel-popup">X</button>
+
+                      <div class="b_content">
+                        <div id = "link-account-helper"><a class ="recovery_pass"href="#">Si olvidaste la contraseña, puedes dar click aquí</a></div>
+                      </div>
+
+                        
+
+                      <div class="b_content">
+                        <div id = "register_text" class="last_text_popup">¿Aún no tienes una cuenta?</div>
+
+                        <div class="last_button_reg" onclick="redirectToPage()" >
+                            Registrarse
+                        </div>
+                      </div>
+
+                      
+                    </div>
+
+                    <div class="blur-effect">
+        
+                    </div>
+                </div>
+                <button id="register-button" class="login-button">Unirse</button>
             </ul>
         </nav>
     </header>
-    <hr>
-    <h5>Correo Electrónico</h5>
-    <input type="">
 
-    <h5>Nombre de Usuario</h5>
-    <input type="text">
+    <div class="fondo_form_register">
 
-    <h5>Contraseña</h5>
-    <input type="text">
+        <div class ="register_frase">
+            <img src="/imágenes/frase_registro.png" alt="">
+        </div>
+        <div class ="register_frase2">
+            ¿Listo para adentrarte al inmersivo mundo del deporte con DINAMIS?
+        </div>
+        
+        <div class="register_form">
+            <div class="form_space">
+                <h5>Correo Electrónico</h5>
+                <input type="text">
+            
+                <h5>Nombre de Usuario</h5>
+                <input type="text">
+            
+                <h5>Contraseña</h5>
+                <input type="password">
+            
+                <h5>Repetir Contraseña</h5>
+                <input type="password">
 
-    <h5>Repetir Contraseña</h5>
-    <input type="text">
+            </div>
+            
+        </div>
 
-    <div>
-        <button>Omitir</button>
-        <button><a href="#">Siguiente</a></button>
+        <div class="checkboxs_form_register">
+            <label for=""> <input type="checkbox"> He leído y acepto los <a href=""> Términos y condiciones</a> y la <a href="">Política de Privacidad</a> </label>
+            <label for=""> <input type="checkbox"> Acepto que DINAMIS me envíe notificaciones de promociones al correo electrónico </label>
+            
+        </div>
+
+        <div class="step_step">
+            <button class ="btn_back">Regresar</button>
+            <button class = "btn_next" type="submit">Siguiente</button>
+        </div>
     </div>
+   
+  
     
+    <script src="/login.js"></script>
 
+
+
+    <footer>
+        <div class = "footer_axiliar">
+            <div class = "fp_1">
+                <div class="bloq1">
+                    <div class = "info_empresa">
+                        <div class="texto_f">
+                            DINAMIS
+                        </div>
+        
+                        <div class="frase_f">
+                            La mejor plataforma de noticias de grandes ligas
+                        </div>
+                    </div>
+        
+                    <div class = "contacto_row">
+                        <div>
+                            <img src="/imágenes/facebook.png" alt="">
+                            <img src="/imágenes/instagram.png" alt="">
+                            <img src="/imágenes/twitter.png" alt="">
+                            <img src="/imágenes/youtube.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="recomendaciones_f">
+                    <div class="texto_f">
+                        Recomendamos
+                    </div>
+        
+                    <div class="equipos_ligas">
+                        <img src="/imágenes/Bundesliga_logo_(2017).png" alt="">
+                        <img src="/imágenes/Equipos/barca.png" alt="">
+                        <img src="/imágenes/Equipos/laliga.png" alt="">
+                        <img src="/imágenes/Equipos/Serie_A_logo_2022.png" alt="">
+                        <img src="/imágenes/Equipos/Real_Madrid_CF.svg.png" alt="">
+                    </div>
+                </div>
+        
+                <div class="fp_2">
+                    <div>
+                        Acerca de nosotros
+                    </div>
+        
+                    <div>
+                        Trabaja con nosotros
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="mas_detalles">
+                <div>
+                    Políticas de privacidad
+                </div>
+    
+                <div>
+                    Términos y condiciones
+                </div>
+    
+                <div>
+                    Licencias
+                </div>
+            </div>
+
+            <div class="extra">
+                DINAMIS 2023
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -72,7 +72,7 @@ nav .list a{
 }
 
 nav .list a:hover{
-    border-bottom: 4px solid chocolate
+    border-bottom: 4px solid rgb(255, 255, 255)
 }
 
 nav .list2 li{
@@ -242,10 +242,12 @@ font-size: 4em;
 
 
 
-.footer{
+footer{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     
 }
 
