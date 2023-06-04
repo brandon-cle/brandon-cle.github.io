@@ -1,0 +1,163 @@
+body{
+    background-color: black;
+    font-family: Inter;
+}
+
+div{
+  border: 2px solid red;
+}
+
+.base1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 1200px;
+    margin-right: 10px;
+}
+
+
+.space1{
+    width: 300px;
+    margin-right: 40px ;
+}
+
+.space1 div{
+    width: 100%;
+}
+
+.space2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    padding-right: 28px;
+}
+
+/*MVP*/
+
+.new_mvp{
+    display: flex;
+    flex-direction: row;
+    margin-left:30px;
+    
+    color: white;
+}
+
+.space_title_mvp{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 40, 40);
+    
+}
+
+.photo_mvp{
+    background-image: linear-gradient(to right, rgb(12,12,12, 0.2) 90%,rgb(40,40,40, 100%)), url(/imágenes/Haaland_mvp.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 350px;
+}
+
+.title_mvp{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.title_mvp h2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.description_mvp{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.data_new{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px ;
+}
+
+
+.data_new img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.username_new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(177, 177, 177);
+}
+
+.time_uploaded_new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(114, 114, 114);
+}
+
+
+.carrousel_chain_mvp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.carrousel_chain_mvp img{
+    width: 200px;
+}
+
+
+
+/*SOME NEWS*/
+
+.some_news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+
+.new_2mvp{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 250px;
+    height: 260px;
+}
+
+.title_2mvp{
+    font-size: 0.8em;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.photo_2mvp{
+    background-image: url(/imágenes/kaka_milan.jpg);
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    height: 150px;
+}
+
+.new_2mvp .data_new{
+    font-size: 0.8em;
+}
