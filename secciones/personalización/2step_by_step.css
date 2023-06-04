@@ -1,0 +1,150 @@
+div{
+    border: 2px solid red;
+}
+
+.photo_recomendacion img{
+    width: 50px;
+    height: 50px;
+}
+
+.text1{
+    
+}
+
+.step_step2{
+    height: 800px;
+}
+
+
+.step_step2{
+
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 490px;
+    width: 100%;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+    
+}
+
+.text2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text2_sub{
+    font-size: 0.9em;
+    
+}
+
+.ligas_recomendadas{
+    width: 825px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    padding-bottom: 50px;
+    color: white;
+}
+
+.espacio_recomendacion{
+    width: 90%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(62, 62, 62);
+    overflow: auto;
+
+    scrollbar-width: thin;
+    scrollbar-color: white black;
+}
+
+.espacio_recomendacion::-webkit-scrollbar{
+    width: 8px;
+}
+
+.espacio_recomendacion::-webkit-scrollbar-track{
+    background-color: aliceblue;
+    
+}
+
+.espacio_recomendacion::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+
+
+.fila_rec{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 150px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recomendacion{
+    position: relative;
+    width: 120px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    background-color: rgb(44, 44, 44);
+}
+
+.photo_recomendacion{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.recomendacion_nombre{
+    margin-top: 10px;
+    color:white;
+}
+
+.photo_recomendacion{
+    
+    border-radius: 100%;
+    color: black;
+}
+
+.photo_recomendacion img{
+
+}
+
+.fila_rec{
+
+}
+
+.marker_rec{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.yes_or_no{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(198, 198, 198);
+}
+
