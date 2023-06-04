@@ -1,3 +1,169 @@
 body{
     background-color: black;
+
+    background-image: url(/imágenes/fondo_selector.png);
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+    
+    font-family: inter;
+}
+
+div{
+    
+}
+
+
+
+.step_step{
+
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 490px;
+    width: 100%;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+    
+}
+
+.cuadro_de_seleccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    height: 100%;
+}
+
+.seleccion_deporte{
+    margin-right: 10px;
+    margin-left:10px;
+    width: 260px;
+    border: 2px solid rgba(255, 255, 255, 0.473);
+    background-size: cover;
+    background-position: center;
+    
+    text-align: center;
+    
+
+    
+    color: white;
+    
+}
+
+.seleccion_deporte h2{
+    margin-top: 390px ;
+   
+}
+
+.step_left_right{
+    margin-top: 20px;
+    width: 825px;
+    display: flex;
+    flex-direction: row ;
+    background-color: rgba(22, 22,22, 1);
+    border-radius: 5px;
+    border: 2px solid rgb(52, 52, 52);
+
+    
+}
+
+.step_left_right div{
+    width: 50%;
+    height:45px;
+    
+}
+
+.step_innecesary{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.step_innecesary h2{
+    font-size: 1.2em;
+    color: white;
+}
+
+.R_left_side{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.R_right_side{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+#R_left_button{
+    background-color: rgba(0, 122, 192, 0);
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 180px;
+    font-weight: bold;
+    font-size: 1em;
+    height: 40px;
+}
+
+#R_right_button{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    font-weight: bold;
+    font-size: 1em;
+    height: 40px;
+}
+
+
+#seleccion1{
+    background-image: linear-gradient(to bottom, #f0000000 45%, #000000e8 90.5%), url(/imágenes/Selector/Baloncesto.png);
+    
+}
+
+#seleccion2{
+    background-image: linear-gradient(to bottom, #f0000000 45%, #000000e8 90.5%), url(/imágenes/Selector/futbol.png);
+}
+
+#seleccion3{
+    background-image: linear-gradient(to bottom, #f0000000 45%, #000000e8 90.5%), url(/imágenes/Selector/voleibol.png);
+}
+
+
+.text1{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+.Blue_text_color{
+    color: rgba(0, 123, 192);
+    margin-right: 8px;
+}
+
+footer{
+    margin-top: 50px;
+    width: 100%;
 }
