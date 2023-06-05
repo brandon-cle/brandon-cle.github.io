@@ -1,102 +1,124 @@
-body{
+body {
     background-color: black;
     font-family: Inter;
 }
 
-div{
-  border: 2px solid red;
+.menu_var{
+    width: 100%;
 }
 
-.base1{
+.menu_var img{
+    width: 100%;
+}
+
+.base1 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 1200px;
+    height: 100%;
     margin-right: 10px;
+    margin-bottom: 10px;
+    
 }
 
 
-.space1{
+.space1 {
     width: 300px;
-    margin-right: 40px ;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
 }
 
-.space1 div{
+.space1 img{
+    width: 210px;
+    height: 600px;
+}
+
+.space1 div {
     width: 100%;
 }
 
-.space2{
+.space2 {
+    
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-right: 30px;
     padding-right: 28px;
+    background-color: rgb(11, 11, 11);
 }
 
 /*MVP*/
 
-.new_mvp{
+.new_mvp {
+    
     display: flex;
     flex-direction: row;
-    margin-left:30px;
-    
+    margin-left: 30px;
+
     color: white;
 }
 
-.space_title_mvp{
+.space2 h3{
+    margin-left: 30px;
+    color: white;
+}
+
+.space_title_mvp {
     width: 50%;
     display: flex;
     flex-direction: column;
     background-color: rgb(40, 40, 40);
-    
+
 }
 
-.photo_mvp{
-    background-image: linear-gradient(to right, rgb(12,12,12, 0.2) 90%,rgb(40,40,40, 100%)), url(/imágenes/Haaland_mvp.jpg);
+.photo_mvp {
+    background-image: linear-gradient(to right, rgb(12, 12, 12, 0.2) 90%, rgb(40, 40, 40, 100%)), url(/imágenes/Haaland_mvp.jpg);
     background-size: cover;
     background-position: center;
     width: 600px;
     height: 350px;
 }
 
-.title_mvp{
+.title_mvp {
     font-size: 2em;
     font-weight: bold;
 }
 
-.title_mvp h2{
+.title_mvp h2 {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.description_mvp{
+.description_mvp {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.data_new{
+.data_new {
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10px ;
+    margin-top: 10px;
+    
 }
 
 
-.data_new img{
+.data_new img {
     width: 20px;
     margin-right: 10px;
 }
 
-.username_new{
+.username_new {
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(177, 177, 177);
 }
 
-.time_uploaded_new{
+.time_uploaded_new {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,7 +126,7 @@ div{
 }
 
 
-.carrousel_chain_mvp{
+.carrousel_chain_mvp {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -112,7 +134,7 @@ div{
     margin-top: 10px;
 }
 
-.carrousel_chain_mvp img{
+.carrousel_chain_mvp img {
     width: 200px;
 }
 
@@ -120,16 +142,16 @@ div{
 
 /*SOME NEWS*/
 
-.some_news{
+.some_news {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
     margin-left: 30px;
-    
+
 }
 
-.new_2mvp{
+.new_2mvp {
     display: flex;
     flex-direction: column;
     color: white;
@@ -137,27 +159,335 @@ div{
     height: 260px;
 }
 
-.title_2mvp{
+.title_2mvp {
     font-size: 0.8em;
     font-weight: bold;
 
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    height: 50px;
 }
 
-.photo_2mvp{
+.photo_2mvp {
     background-image: url(/imágenes/kaka_milan.jpg);
     background-size: cover;
     background-position: center;
 
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+
 
     height: 150px;
 }
 
-.new_2mvp .data_new{
+.new_2mvp .data_new {
     font-size: 0.8em;
+}
+
+.limit_category {
+    height: 2px;
+    /* Altura de la línea */
+    background-color: rgb(31, 31, 31);
+    /* Color de fondo de la línea */
+    border: none;
+    /* Elimina el borde predeterminado */
+}
+
+.div_limiter {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.leagues {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-weight: bold;
+
+}
+
+.panel_leagues {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.leagues_recs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+
+    background-color: rgb(32, 32, 32);
+}
+
+.league_recommended {
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 10px;
+
+    align-items: center;
+    background-color: rgb(52, 52, 52);
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.name_league {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+
+    margin-right: 5px;
+    font-size: 0.9em;
+
+}
+
+.photo_league {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.photo_league img {
+    width: 20px;
+}
+
+.selection_tofollow {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    background-color: rgb(99, 99, 99);
+    border-radius: 10px;
+}
+
+
+.arrows_panel {
+    border-radius: 10px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows_panel img {
+    width: 20px;
+    height: 20px;
+}
+
+/*Recomendaciones TEAM*/
+
+.teams {
+
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.other_news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.new_3mvp {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 350px;
+    height: 300px;
+}
+
+.title_3mvp {
+    font-size: 0.8em;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.photo_3mvp {
+    background-image: url(/imágenes/kaka_milan.jpg);
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 10px;
+
+
+    height:180px;
+}
+
+.new_3mvp .data_new {
+    font-size: 0.8em;
+}
+
+.title_extra{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.photo_team_limiter{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    border: 3px solid rgb(31, 31, 31);
+    background-color: white;
+    margin-right: 5px;
+    
+}
+
+.photo_team_limiter img{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+
+.limiter_team{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.bar_team{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(31, 31, 31);
+    width: 100%;
+
+    border-radius: 10px;
+    font-weight: bold;
+    color:white ;
+}
+
+.team_recommended{
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(11, 11, 11);
+}
+
+.take_new_recommended{
+    background-image: url(/imágenes/madrid_3.jpg);
+    background-size: cover;
+    background-position: center;
+
+    width: 450px;
+    height: 260px;
+
+}
+
+.new_recommended_team{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right2{
+    transform: scaleX(-1); /* Aplica el flip horizontal */
+}
+
+#right2_space{
+    width: 50px;
+    height: 100px;
+}
+
+#right2_space img{
+   
+}
+
+
+
+.title_new_recommended{
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: rgba(41,41,41, 0.89);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title_new_recommended h5{
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+.title_new_recommended .data_new{
+    margin-top: 0%;
+    width: 100%;
+    font-size: 0.8em;
+    
+}
+
+.title_new_recommended .data_new .username_new{
+    margin-left: 10px;
+}
+
+.title_new_recommended .data_new .time_uploaded_new{
+    margin-right: 10px;
+}
+
+.sides_recommended{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sides_recommended img{
+    width: 50px;
+   height: 100px;
 }
