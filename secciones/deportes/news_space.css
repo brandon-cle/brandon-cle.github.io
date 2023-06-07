@@ -101,6 +101,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 10px;
     
 }
@@ -116,6 +117,7 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(177, 177, 177);
+    
 }
 
 .time_uploaded_new {
@@ -329,7 +331,7 @@ body {
 }
 
 .title_3mvp {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
 
     margin-top: 10px;
@@ -447,12 +449,12 @@ body {
 .title_new_recommended{
     color: white;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1em;
     background-color: rgba(41,41,41, 0.89);
     height: 80px;
     width: 100%;
     display: flex;
-    align-items: center;
+    
     margin-top: 180px;
     display: flex;
     flex-direction: column;
@@ -461,7 +463,8 @@ body {
 
 .title_new_recommended h5{
     margin-bottom: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
+    
 
 }
 
@@ -470,6 +473,7 @@ body {
     width: 100%;
     font-size: 0.8em;
     
+    
 }
 
 .title_new_recommended .data_new .username_new{
@@ -477,7 +481,7 @@ body {
 }
 
 .title_new_recommended .data_new .time_uploaded_new{
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .sides_recommended{
@@ -490,4 +494,14 @@ body {
 .sides_recommended img{
     width: 50px;
    height: 100px;
+}
+
+
+#volley_mvp{
+    background-image:  linear-gradient(to right, rgb(12, 12, 12, 0.2) 90%, rgb(40, 40, 40, 100%)), url(/imágenes/nipon_arg.jpg);
+    
+}
+
+#basket_mvp{
+    background-image:  linear-gradient(to right, rgb(12, 12, 12, 0.2) 90%, rgb(40, 40, 40, 100%)), url(/imágenes/lebron\ james.jpg);
 }
