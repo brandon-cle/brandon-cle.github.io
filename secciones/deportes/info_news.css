@@ -160,8 +160,13 @@ div {
     border: 1px solid rgba(255, 255, 255, 0.91);
 }
 
+.beggining{
+    margin-top: 30px;
+}
+
 #buttons_up{
     margin-top: 90px;
+    margin-left: 10px;
 }
 
 #buttons_down{
