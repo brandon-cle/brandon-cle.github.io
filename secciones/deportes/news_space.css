@@ -3,6 +3,10 @@ body {
     font-family: Inter;
 }
 
+h2{
+    color: white;
+}
+
 .menu_var{
     width: 100%;
 }
@@ -313,11 +317,17 @@ body {
     margin-left: 30px;
     font-weight: bold;
 }
+#prueba1{
+    justify-content: center;
+}
 
+#other_news_into{
+
+}
 .other_news {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
     margin-top: 8px;
     margin-left: 30px;
 }
