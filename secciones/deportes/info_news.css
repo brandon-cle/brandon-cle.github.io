@@ -3,15 +3,13 @@ body {
     background-color: black;
 }
 
-div {
-    
-}
+/*div {border: 5px solid rgba(255, 255, 255, 0.48);}*/
 
 .fondo1 {
     width: 100%;
     height: 500px;
     display: flex;
-    
+
 
     justify-content: center;
     background-image: url(/imágenes/wallpaper_fondo1.jpg);
@@ -64,29 +62,28 @@ div {
 
     margin-top: 10px;
 }
-.information_bout{
-    color: white;
 
+.information_bout {
+    color: white;
+    
 }
 
-.information_bout div{
+.information_bout div {
     margin-left: 75px;
     margin-right: 75px;
     margin-bottom: 40px;
 }
 
-.information_bout p{
+.information_bout p {
     line-height: 0.6cm;
 }
 
-.information_bout h2{
+.information_bout h2 {
     margin-left: 75px;
     margin-right: 75px;
 }
 
-.information_bout div
-
-#prueba1{
+.information_bout div #prueba1 {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -94,14 +91,14 @@ div {
     justify-content: center;
 }
 
-#prueba1 div{
+#prueba1 div {
     margin-left: 20px;
     margin-right: 20px;
 }
 
 
 
-.information_bout img{
+.information_bout img {
     width: 701px;
     height: 353px;
     object-fit: cover;
@@ -109,9 +106,10 @@ div {
     border: 2px solid rgba(251, 251, 251, 0.5)
 }
 
-.information_bout .citacion{
+.information_bout .citacion {
     font-style: italic;
 }
+
 .info_description {
     font-family: 'Inter';
     font-style: normal;
@@ -125,13 +123,13 @@ div {
 
 
 
-.botones img{
+.botones img {
     width: 30px;
     height: 30px;
     margin-right: 6px;
 }
 
-.botones button{
+.botones button {
     display: flex;
     align-items: center;
 }
@@ -160,26 +158,71 @@ div {
     border: 1px solid rgba(255, 255, 255, 0.91);
 }
 
-.beggining{
+.rotulo_de_paga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotulo_de_paga {
+    position: relative;
+}
+
+.img_robert{
+    
+    background-image: linear-gradient(rgb(25,25,25,0) 65%, rgb(0, 0, 0)), url(/imágenes/robert_lewandowski_entrevista.jpg);
+    background-size: cover;
+    width: 701px;
+    height: 353px;
+    border: 1px solid rgba(255, 255, 255, 0.91);
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_video{
+    position: relative;
+    top: 20px;
+    width: 95%;
+
+    font-weight: bold;
+}
+
+.banda_negra{
+    margin-top: 100px;
+    background-image: url(/imágenes/contrata_dinamis_plus.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
+    width: 100%;
+    /* Ajusta el ancho deseado */
+    height: 150px;
+    /* Ajusta el alto deseado */
+}
+
+.beggining {
     margin-top: 30px;
 }
 
-#buttons_up{
+#buttons_up {
     margin-top: 90px;
     margin-left: 10px;
 }
 
-#buttons_down{
+#buttons_down {
     background-color: #1C1C1C;
 }
 
-#buttons_down div{
+#buttons_down div {
     margin-left: 110px;
     height: 50px;
 }
 
 
-.botones div{
+.botones div {
     display: flex;
     width: 100%;
     display: flex;
@@ -202,8 +245,8 @@ div {
     font-size: 16px;
     line-height: 19px;
 
-    
-    
+
+
 
 }
 
@@ -220,10 +263,15 @@ div {
 
 .base_a {
     width: 1282px;
-    height: 2430px;
+    
 
     display: grid;
     grid-template-columns: 5fr 0.5fr 1fr;
+    
+}
+
+.base_a div{
+    
 }
 
 
@@ -252,7 +300,7 @@ div {
 #news_related {
 
     margin-top: 585px;
-    
+
     background-color: rgba(36, 36, 36, 1);
     position: relative;
     z-index: 1;
@@ -267,7 +315,7 @@ div {
     justify-content: center;
     align-items: center;
 
-    
+
 
 }
 
@@ -282,11 +330,11 @@ div {
     margin-right: 20px;
 }
 
-.content div{
+.content div {
     margin-top: 10px;
 }
 
-.hueco .hueco_text{
+.hueco .hueco_text {
     text-align: left;
     font-weight: bold;
 }
@@ -303,7 +351,7 @@ div {
     width: 100%;
     margin-top: 10px;
 
-    
+
 }
 
 .t_nombre {
@@ -323,6 +371,7 @@ div {
 
 .information_bout {
     background-color: rgba(19, 19, 19, 1);
+    height: 100%;
 }
 
 .border_between {
@@ -361,18 +410,18 @@ div {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;    
+    font-weight: 700;
     line-height: 22px;
     /* identical to box height */
 
     text-align: center;
     margin-bottom: 20px;
-    
+
     color: white;
 }
 
-.articulos_mencionados{
-    background-color:rgba(36, 36, 36, 1);
+.articulos_mencionados {
+    background-color: rgba(36, 36, 36, 1);
     position: relative;
     z-index: 1;
     /* Asegura que el contenido aparezca encima del overlay */
@@ -384,14 +433,15 @@ div {
     flex-direction: column;
     justify-content: center;
     height: 150px;
-    margin-bottom: 919px;;
-    
+    margin-bottom: 919px;
+    ;
+
 }
 
-.titulo_newws2{
+.titulo_newws2 {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;    
+    font-weight: 700;
     line-height: 22px;
 
     border-radius: 10px;
@@ -405,38 +455,58 @@ div {
     justify-content: center;
     margin-left: 10px;
 
-    
-    
+
+
 }
 
-.etiquetas{
+.etiquetas {
     display: flex;
     margin-left: 10px;
     margin-top: 20px;
 
 }
-.articulo{
+
+.articulo {
     display: flex;
     flex-direction: row;
     background-color: rgb(26, 26, 26);
-    
+
     height: 40px;
     font-size: 0.8em;
     justify-content: center;
     align-items: center;
-    padding-right: 10px ;
+    padding-right: 10px;
     border-radius: 10px;
     margin-left: 5px;
 }
 
-.articulo img{
-    width: 25px;;
+.articulo img {
+    width: 25px;
+    ;
     height: 25px;
     margin: 5px;
 }
 
-.title_limiter h2{
+.title_limiter h2 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
+
+
+
+.fondo2 .base_a .information_bout{
+    height:100%;
+   }
+   
+   
+   .base_a .second_panel .overlay{
+    height:100%;
+   }
+
+   .fondo2 .base_a .second_panel{
+    height:2131px;
+   }
+
+   
