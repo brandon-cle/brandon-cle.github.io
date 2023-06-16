@@ -3,7 +3,7 @@ body {
     background-color: black;
 }
 
-/*div {border: 5px solid rgba(255, 255, 255, 0.48);}*/
+div {border: 5px solid rgba(255, 255, 255, 0.48);}
 
 .fondo1 {
     width: 100%;
@@ -506,7 +506,45 @@ body {
    }
 
    .fondo2 .base_a .second_panel{
-    height:2131px;
+    height:2200px;
    }
 
+#tabla_de_juego{
+    margin-top: 10px;
+    height: 100px ;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1_games{
+    display: flex;
+    flex-direction: row;
+}
+
+.vs_team img{
+    width: 10px;
+    height: 10px;
+}
+
+.data_vsteam{
+    
+}
+
+.liga_name{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.liga_name img{
+    width: 10px;
+    height: 10px;
+}
+
+.column{
+    display: flex;
+    
+}
    

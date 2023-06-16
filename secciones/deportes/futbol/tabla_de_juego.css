@@ -1,0 +1,81 @@
+.line_up div{
+    border: 1px solid rgb(135, 135, 135);
+}
+
+#tabla_de_juego{
+    color: white;
+    
+    margin-top: 10px;
+    height: 92px;
+    width: 350px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    background-color: black;
+}
+
+.row1_games{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.vs_team{
+    width:125px;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(58, 58, 58);
+}
+
+.vs_team img{
+   }
+
+.data_vsteam{
+    width:100%;
+    text-align: center;
+}
+
+.liga_name{
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(13, 13, 13);
+}
+
+.liga_name img{
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+.points_row{
+    background-color: rgb(31, 31, 31);
+    font-size: 1.2em;
+}
+
+.done_time{
+    height: 23px;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.date_row{
+    height: 100%;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
